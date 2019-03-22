@@ -18,7 +18,7 @@ install:
 build_script:
 - cmd: >-
     npm install
-    
+
     npm run dist
 test: off
 artifacts:
@@ -29,5 +29,5 @@ deploy:
 - provider: GitHub
   release: v$(package_version)
   auth_token:
-    secure: qR6cJCEAjzYYgJKkpa9aJmpTgX11HlSZTrDWRg38icikDeE7hOPCp+K3VqxgZ9ex
+    secure: b9606edfdc8131f5c3ccc7e1794f3b182e69a109
   force_update: true
