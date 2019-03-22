@@ -373,6 +373,8 @@
                         <ul class="d-menu context drop-shadow drop-right" data-role="dropdown">
                           <li><a href="#" onclick="sendGcode( 'G0 X0')"><span class="fas fa-chart-line fg-red icon"></span>Goto X0 (Work Coord) (G0 X0)</a></li>
                           <li id="gotoXzeroMpos"><a href="#" onclick="sendGcode( 'G53 G0 X0')"><span class="fas fa-chart-line fg-red icon"></span>Goto X0 (Machine Coord) (G53 G0 X0)</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#" onclick="x0probe()"><span class="fas fa-podcast fa-rotate-180 fg-blue icon"></span>Probe X0 Wizard</a></li>
                         </ul>
                       </div>
                     </td>
@@ -405,6 +407,8 @@
                         <ul class="d-menu context drop-shadow drop-right" data-role="dropdown">
                           <li><a href="#" onclick="sendGcode( 'G0 Y0')"><span class="fas fa-chart-line fg-green icon"></span>Goto Y0 (Work Coord) (G0 Y0)</a></li>
                           <li id="gotoYzeroMpos"><a href="#" onclick="sendGcode( 'G53 G0 Y0')"><span class="fas fa-chart-line fg-green icon"></span>Goto Y0 (Machine Coord) (G53 G0 Y0)</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#" onclick="y0probe()"><span class="fas fa-podcast fa-rotate-180 fg-blue icon"></span>Probe Y0 Wizard</a></li>
                         </ul>
                       </div>
                     </td>

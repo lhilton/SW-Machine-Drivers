@@ -148,7 +148,7 @@ function initSocket() {
   });
 
   socket.on("prbResult", function(data) {
-    z0proberesult(data)
+    proberesult(data)
   });
 
   function showGrbl(bool) {
