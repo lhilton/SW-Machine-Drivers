@@ -29,5 +29,5 @@ deploy:
 - provider: GitHub
   release: v$(package_version)
   auth_token:
-    secure: b9606edfdc8131f5c3ccc7e1794f3b182e69a109
+    secure: 2pYKQly7IeHYJXLbju2pVzzVbHGE9zPgpDksrdQHeHE4iOF0iq5BXjSVj1hmLfN5
   force_update: true
